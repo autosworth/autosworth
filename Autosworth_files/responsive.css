@@ -1,0 +1,1569 @@
+@media screen and (max-width:1120px)
+{
+.wrapper {
+	width: 980px;
+}
+.header-top-left {
+	padding-right: 90px;
+}
+.content-top .kopa-search-form-widget {
+	top: 25px;
+}
+.owl-carousel-3 {
+	margin-top: 30px; margin-bottom: 30px;
+}
+.sv-line::before {
+	height: 125px;
+}
+.sv-line::after {
+	height: 125px;
+}
+.scrollup {
+	top: -140px;
+}
+.kopa-area-2 .span-bg::before {
+	top: -75px;
+}
+.kopa-area-2 .span-bg::after {
+	top: -75px;
+}
+.kopa-area-2 .span-bg::before {
+	height: 90px;
+}
+.kopa-area-2 .span-bg::after {
+	height: 90px;
+}
+.kopa-area-2 .span-bg .c-tg::before {
+	bottom: -75px;
+}
+.kopa-area-2 .span-bg .c-tg::after {
+	bottom: -75px;
+}
+.kopa-area-2 .span-bg .c-tg::before {
+	height: 90px;
+}
+.kopa-area-2 .span-bg .c-tg::after {
+	height: 90px;
+}
+.kopa-header.style3 .kopa-logo {
+	width: 300px;
+}
+.kopa-address-box.style2 ul li {
+	margin: 0px 0px 0px 15px; font-size: 14px;
+}
+.header-middle-left {
+	padding-right: 15px; margin-right: 20px;
+}
+.owl-carousel-6 .entry-content {
+	top: 90px;
+}
+.kopa-blog-list-1 {
+	margin-top: 0px;
+}
+.kopa-blog-list-2 {
+	margin-top: 0px;
+}
+.kopa-blog-list-3 .masonry-list-wrapper > ul {
+	margin-top: -50px;
+}
+.kopa-article-list-widget .widget-content {
+	margin-top: -20px;
+}
+.kopa-article-list-widget .widget-content .row {
+	margin-top: 20px;
+}
+.nav-tabs.kopa-tabs-2 > li a {
+	padding: 7px 15px; font-size: 14px;
+}
+.nav-tabs.kopa-tabs-1 > li a {
+	font-size: 14px;
+}
+.nav-tabs.kopa-tabs-3 > li a {
+	font-size: 14px;
+}
+.nav-tabs.kopa-tabs-4 > li a {
+	font-size: 14px;
+}
+.nav-tabs.kopa-tabs-4 > li a {
+	padding: 7px 10px;
+}
+.kopa-tab-container-4.row {
+	margin-right: -10px; margin-left: -10px;
+}
+.kopa-tab-container-4.row > div {
+	padding-right: 10px; padding-left: 10px;
+}
+.kopa-tab-container-4.row > ul {
+	padding-right: 10px; padding-left: 10px;
+}
+.woocommerce .kopa-masonry-wrap {
+	margin-right: -15px; margin-left: -15px;
+}
+.woocommerce-page .kopa-masonry-wrap {
+	margin-right: -15px; margin-left: -15px;
+}
+.woocommerce .kopa-masonry-wrap li {
+	width: 33.32%; padding-right: 15px; padding-left: 15px;
+}
+.woocommerce-page .kopa-masonry-wrap li {
+	width: 33.32%; padding-right: 15px; padding-left: 15px;
+}
+.kopa-element-container {
+	padding: 30px;
+}
+.kopa-element-container .kopa-button {
+	padding-right: 30px; padding-left: 30px;
+}
+.kopa-element-container i {
+	margin-right: 30px !important;
+}
+}
+@media screen and (max-width:1023px)
+{
+.wrapper {
+	width: 960px;
+}
+.header-top-left {
+	padding-right: 60px;
+}
+.owl-theme .owl-controls.style1 .owl-buttons div.owl-prev {
+	left: -30px;
+}
+.owl-theme .owl-controls.style1 .owl-buttons div.owl-next {
+	right: -30px;
+}
+.entry-title.style1 {
+	line-height: 40px; font-size: 34px;
+}
+.entry-title.style2 {
+	line-height: 40px; font-size: 34px;
+}
+.entry-title.style2 {
+	line-height: 28px; font-size: 22px;
+}
+.article-list-2 .widget-content > ul {
+	margin-right: -15px; margin-left: -15px;
+}
+.article-list-2 .widget-content > ul li.ms-item3 {
+	padding-right: 15px; padding-left: 15px;
+}
+.kopa-skill-1-widget .widget-content .row {
+	margin-top: -30px;
+}
+.kopa-skill-1-widget .widget-content .row li {
+	margin-top: 30px;
+}
+.kopa-contact-info .row > div .social-box {
+	text-align: left;
+}
+.car-detail-box .car-des {
+	margin-bottom: 30px;
+}
+}
+@media screen and (max-width:979px)
+{
+.wrapper {
+	width: 780px;
+}
+.header-top-left {
+	padding-right: 15px; margin-right: 20px;
+}
+.header-top-right .kopa-top-nav {
+	display: none;
+}
+.main-menu {
+	display: none;
+}
+.main-nav-mobile {
+	display: block;
+}
+.content-top .kopa-search-form-widget {
+	top: 5px;
+}
+.kopa-search-form-widget .widget-content .select-block > p {
+	margin-bottom: 5px !important;
+}
+.kopa-search-form-widget .widget-content input.sc-submit {
+	margin-bottom: 0px;
+}
+.kopa-search-form-widget .widget-content input {
+	margin-bottom: 10px;
+}
+.kopa-search-form-widget .widget-content .sc-submit {
+	padding: 10px 20px; height: 40px; line-height: 20px;
+}
+.kopa-search-form-widget .widget-content {
+	padding: 15px;
+}
+.kopa-search-form-widget .widget-content .ft-left p {
+	line-height: 26px;
+}
+.kopa-area-2 .span-bg::before {
+	height: 80px;
+}
+.kopa-area-2 .span-bg::after {
+	height: 80px;
+}
+.kopa-area-2 .span-bg::before {
+	top: -60px;
+}
+.kopa-area-2 .span-bg::after {
+	top: -60px;
+}
+.entry-title.style1 {
+	line-height: 36px; font-size: 30px;
+}
+.entry-title.style2 {
+	line-height: 36px; font-size: 30px;
+}
+.entry-title.style2 {
+	line-height: 28px; font-size: 18px;
+}
+.widget {
+	margin-bottom: 80px;
+}
+.widget > header.style2 .widget-title a {
+	top: 14px; font-size: 40px;
+}
+.widget > header.style2 .widget-title::before {
+	left: -72px; border-top-width: 72px; border-right-width: 72px;
+}
+.widget > header.style2 .widget-title {
+	padding: 15px 70px 15px 15px;
+}
+.widget-title {
+	line-height: 42px; font-size: 36px;
+}
+.row {
+	margin-right: -15px; margin-left: -15px;
+}
+.row .col-xs-1 {
+	padding: 0px 15px;
+}
+.row .col-sm-1 {
+	padding: 0px 15px;
+}
+.row .col-md-1 {
+	padding: 0px 15px;
+}
+.row .col-lg-1 {
+	padding: 0px 15px;
+}
+.row .col-xs-2 {
+	padding: 0px 15px;
+}
+.row .col-sm-2 {
+	padding: 0px 15px;
+}
+.row .col-md-2 {
+	padding: 0px 15px;
+}
+.row .col-lg-2 {
+	padding: 0px 15px;
+}
+.row .col-xs-3 {
+	padding: 0px 15px;
+}
+.row .col-sm-3 {
+	padding: 0px 15px;
+}
+.row .col-md-3 {
+	padding: 0px 15px;
+}
+.row .col-lg-3 {
+	padding: 0px 15px;
+}
+.row .col-xs-4 {
+	padding: 0px 15px;
+}
+.row .col-sm-4 {
+	padding: 0px 15px;
+}
+.row .col-md-4 {
+	padding: 0px 15px;
+}
+.row .col-lg-4 {
+	padding: 0px 15px;
+}
+.row .col-xs-5 {
+	padding: 0px 15px;
+}
+.row .col-sm-5 {
+	padding: 0px 15px;
+}
+.row .col-md-5 {
+	padding: 0px 15px;
+}
+.row .col-lg-5 {
+	padding: 0px 15px;
+}
+.row .col-xs-6 {
+	padding: 0px 15px;
+}
+.row .col-sm-6 {
+	padding: 0px 15px;
+}
+.row .col-md-6 {
+	padding: 0px 15px;
+}
+.row .col-lg-6 {
+	padding: 0px 15px;
+}
+.row .col-xs-7 {
+	padding: 0px 15px;
+}
+.row .col-sm-7 {
+	padding: 0px 15px;
+}
+.row .col-md-7 {
+	padding: 0px 15px;
+}
+.row .col-lg-7 {
+	padding: 0px 15px;
+}
+.row .col-xs-8 {
+	padding: 0px 15px;
+}
+.row .col-sm-8 {
+	padding: 0px 15px;
+}
+.row .col-md-8 {
+	padding: 0px 15px;
+}
+.row .col-lg-8 {
+	padding: 0px 15px;
+}
+.row .col-xs-9 {
+	padding: 0px 15px;
+}
+.row .col-sm-9 {
+	padding: 0px 15px;
+}
+.row .col-md-9 {
+	padding: 0px 15px;
+}
+.row .col-lg-9 {
+	padding: 0px 15px;
+}
+.row .col-xs-10 {
+	padding: 0px 15px;
+}
+.row .col-sm-10 {
+	padding: 0px 15px;
+}
+.row .col-md-10 {
+	padding: 0px 15px;
+}
+.row .col-lg-10 {
+	padding: 0px 15px;
+}
+.row .col-xs-11 {
+	padding: 0px 15px;
+}
+.row .col-sm-11 {
+	padding: 0px 15px;
+}
+.row .col-md-11 {
+	padding: 0px 15px;
+}
+.row .col-lg-11 {
+	padding: 0px 15px;
+}
+.row .col-xs-12 {
+	padding: 0px 15px;
+}
+.row .col-sm-12 {
+	padding: 0px 15px;
+}
+.row .col-md-12 {
+	padding: 0px 15px;
+}
+.row .col-lg-12 {
+	padding: 0px 15px;
+}
+.entry-thumb.style1 .entry-date.style3 {
+	left: 10px;
+}
+.if-phone p {
+	line-height: 70px; font-size: 64px;
+}
+.sv-line::before {
+	height: 100px;
+}
+.sv-line::after {
+	height: 100px;
+}
+.scrollup {
+	top: -130px;
+}
+.kopa-header-top.style2 .header-top-left {
+	padding-right: 0px;
+}
+.kopa-address-box ul li {
+	margin: 0px 0px 0px 20px; line-height: 20px; font-size: 14px;
+}
+.kopa-address-box ul li i {
+	font-size: 16px;
+}
+.owl-carousel-4 .entry-content {
+	top: 80px;
+}
+.owl-theme .owl-controls.style3 .owl-pagination {
+	bottom: -20px;
+}
+.ms-item3 {
+	width: 24.9%;
+}
+.kopa-service-2-widget .entry-item .entry-icon {
+	width: 40px; height: 40px; line-height: 35px; font-size: 14px; margin-right: 15px;
+}
+.team-style1 .entry-item .entry-thumb {
+	width: 180px; margin-right: 20px;
+}
+.kopa-social-links.style2 ul li {
+	margin: 0px 7px 15px;
+}
+.kopa-social-links.style3 ul li {
+	margin: 0px 7px 15px;
+}
+.owl-carousel-6 .entry-content p {
+	display: none;
+}
+.owl-theme .owl-controls .owl-pagination {
+	bottom: 20px;
+}
+.owl-carousel-6 .entry-content h2 {
+	line-height: 46px; font-size: 40px;
+}
+.widget > header.style3 .widget-title {
+	line-height: 36px; font-size: 30px;
+}
+.kopa-address-box.style2 {
+	margin: 10px 0px;
+}
+.kopa-address-box.style2 ul li {
+	margin: 10px 0px 0px; line-height: 30px; float: none; display: block;
+}
+.kopa-address-box.style2 ul li a {
+	line-height: 26px; display: inline-block;
+}
+.kopa-address-box.style2 ul li i {
+	margin: 0px 10px 0px 0px; width: 30px; height: 30px; line-height: 26px; font-size: 14px;
+}
+.owl-carousel-3 {
+	margin-top: 20px; margin-bottom: 20px;
+}
+.article-list-3 .entry-item .entry-content {
+	padding: 15px 0px;
+}
+.article-list-3 .entry-item:hover .entry-content {
+	padding: 15px;
+}
+.car-detail-box .car-tech .car-tech-header .kopa-button {
+	padding: 10px 15px;
+}
+.car-detail-box .car-des .car-content .kopa-tab-container-3 .tab-title {
+	padding: 0px 15px;
+}
+.car-detail-box .car-des .car-content .kopa-tab-container-3 .tab-title {
+	float: none !important;
+}
+.car-detail-box .car-des .car-content .kopa-tab-container-3 .nav-tabs.kopa-tabs-3 li a {
+	padding: 7px 15px;
+}
+.car-detail-box .car-des .car-content .kopa-tab-container-3 .tab-content div blockquote {
+	margin-left: 0px;
+}
+.kopa-tab-container-4.row > div {
+	padding-top: 40px;
+}
+.kopa-tab-container-4.row > ul {
+	padding-top: 40px;
+}
+.kopa-element-container h4 {
+	width: 60%; line-height: 36px;
+}
+.kopa-element-container i {
+	margin-right: 20px !important;
+}
+.product_column .related.products ul.products li.product .entry-item {
+	padding: 15px;
+}
+.entry-price-1 span {
+	line-height: 36px; font-size: 30px;
+}
+.product_column .related.products ul.products li.product .entry-item .entry-title {
+	line-height: 22px; font-size: 16px;
+}
+.product_column .related.products ul.products li.product .entry-item .star-rating {
+	margin-top: 30px;
+}
+.kopa-blog-list-1 .entry-item .entry-content .entry-content-detail {
+	margin-left: 170px;
+}
+.kopa-blog-list-1 .entry-item .entry-content .entry-content-detail header .meta-box {
+	float: none;
+}
+.kopa-blog-list-1 .entry-item .entry-content .entry-content-detail header .entry-title {
+	margin-bottom: 20px; float: none;
+}
+.kopa-blog-list-2 .entry-item .entry-thumb {
+	width: 280px;
+}
+.kopa-blog-list-3 .masonry-list-wrapper > ul > li {
+	width: 50%;
+}
+.woocommerce .kopa-masonry-wrap li {
+	width: 50%;
+}
+.woocommerce-page .kopa-masonry-wrap li {
+	width: 50%;
+}
+.kopa-product-list-widget .entry-item {
+	padding: 15px;
+}
+.kopa-product-list-widget .widget-content .ms-item1 {
+	width: 50% !important;
+}
+.woocommerce ul.cart_list > li img {
+	width: 50px;
+}
+.woocommerce ul.product_list_widget > li img {
+	width: 50px;
+}
+.woocommerce-page ul.cart_list > li img {
+	width: 50px;
+}
+.woocommerce-page ul.product_list_widget > li img {
+	width: 50px;
+}
+.entry-date.style3 {
+	width: 70px;
+}
+.entry-date.style1 > div {
+	padding: 5px;
+}
+.entry-date.style3 > div {
+	padding: 5px;
+}
+.entry-date.style3 > div p {
+	line-height: 26px; font-size: 30px;
+}
+.owl-theme .owl-controls.style2 .owl-buttons div {
+	top: 12px;
+}
+}
+@media screen and (max-width:799px)
+{
+.wrapper {
+	width: 720px;
+}
+.owl-carousel-1 .entry-content .entry-categories {
+	line-height: 30px; font-size: 24px;
+}
+.owl-carousel-1 .entry-content .entry-title {
+	line-height: 50px; font-size: 46px;
+}
+.owl-carousel-1 .entry-content .entry-title span {
+	line-height: 56px; font-size: 80px;
+}
+.kopa-area :first-child.widget.kopa-feature-item-widget {
+	margin-top: 0px;
+}
+.entry-icon {
+	width: 80px; height: 80px; line-height: 74px; font-size: 40px; margin-right: 20px;
+}
+.kopa-service-widget .entry-item .entry-title {
+	line-height: 22px; font-size: 16px; margin-bottom: 10px;
+}
+.kopa-service-widget .entry-item .entry-icon {
+	margin-right: 15px;
+}
+.kopa-event-widget .entry-item .entry-date.style1 {
+	margin-right: 20px;
+}
+.kopa-event-widget .entry-item .entry-date.style3 {
+	margin-right: 20px;
+}
+.kopa-event-widget .entry-item .entry-title {
+	line-height: 26px; font-size: 20px; margin-bottom: 10px;
+}
+.kopa-area-2 .span-bg .c-tg::before {
+	height: 80px;
+}
+.kopa-area-2 .span-bg .c-tg::after {
+	height: 80px;
+}
+.kopa-area-2 .span-bg .c-tg::before {
+	bottom: -65px;
+}
+.kopa-area-2 .span-bg .c-tg::after {
+	bottom: -65px;
+}
+.entry-title.style1 {
+	line-height: 34px; font-size: 28px;
+}
+.kopa-article-list-widget .widget-content .row {
+	margin-top: 0px;
+}
+.widget-title.style3 {
+	line-height: 26px; font-size: 20px;
+}
+.owl-carousel-3 {
+	padding: 0px; margin-left: -90px;
+}
+.owl-carousel-3 .owl-controls.style2 .owl-buttons div.owl-prev {
+	left: -360px;
+}
+.owl-carousel-3 .owl-controls.style2 .owl-buttons div.owl-next {
+	right: -140px;
+}
+.owl-theme .owl-controls.style2 .owl-buttons div {
+	top: 10px;
+}
+.kopa-address-box ul li {
+	margin-left: 15px;
+}
+.kopa-header-top.style2 .header-top-left::before {
+	border-right-width: 40px;
+}
+.owl-carousel-4 .entry-content .entry-title {
+	line-height: 34px; font-size: 30px;
+}
+.owl-carousel-4 .entry-content .entry-title span {
+	line-height: 60px; font-size: 80px;
+}
+.widget-title {
+	line-height: 36px; font-size: 30px;
+}
+.kopa-intro-2-widget .entry-item .entry-icon {
+	margin-right: 20px;
+}
+.kopa-intro-2-widget .entry-item .entry-title {
+	line-height: 26px; font-size: 20px;
+}
+.widget > header.style2 .widget-title::before {
+	left: -66px; border-top-width: 66px; border-right-width: 66px;
+}
+.if-phone p {
+	line-height: 66px; font-size: 60px;
+}
+.sv-line::before {
+	height: 90px;
+}
+.sv-line::after {
+	height: 90px;
+}
+.column ul li {
+	padding: 10px 20px;
+}
+.column ul li.title-row {
+	padding: 15px 20px;
+}
+.column ul li.pricing-row {
+	padding: 15px 20px;
+}
+.column ul li.footer-row {
+	padding: 10px 20px 20px;
+}
+.kopa-newsletter-widget .newsletter-form .search-submit {
+	padding-right: 50px;
+}
+.car-detail-box .car-des .car-content {
+	margin-bottom: 30px;
+}
+.portfolio-box .portfolio-content .row > div .portfolio-meta {
+	padding: 20px;
+}
+.product_column .related.products ul.products li.product {
+	width: 50%;
+}
+.more-link {
+	padding-right: 45px; padding-left: 15px;
+}
+}
+@media screen and (max-width:767px)
+{
+body {
+	padding: 0px;
+}
+.wrapper {
+	width: 600px;
+}
+.header-top-left {
+	padding-right: 0px;
+}
+.kopa-contact-info .row > div .social-box {
+	overflow: hidden;
+}
+.kopa-contact-info .row > div .social-box > p {
+	margin-top: 3px; float: left;
+}
+.kopa-contact-info {
+	margin-bottom: 20px;
+}
+.kopa-tweet-widget .widget-content .tg::before {
+	display: none;
+}
+.kopa-tweet-widget .widget-content .tg::after {
+	display: none;
+}
+.kopa-tweet-widget > .wrapper .cs::before {
+	display: none;
+}
+.kopa-tweet-widget > .wrapper .cs::after {
+	display: none;
+}
+.kopa-tweet-widget {
+	background: rgb(40, 47, 66);
+}
+.widget-title.style3 i {
+	margin: 0px; text-indent: 0px;
+}
+.widget-title.style3 {
+	left: 15px; top: 30px; text-indent: -9999px;
+}
+.kopa-tweet-widget .widget-content {
+	padding-left: 0px;
+}
+.owl-carousel-3 {
+	margin: 35px 0px;
+}
+.owl-theme .owl-controls.style2 .owl-buttons div {
+	top: 0px; width: 30px; height: 30px; line-height: 26px;
+}
+.owl-carousel-3 .owl-controls.style2 .owl-buttons div.owl-prev {
+	left: -65px;
+}
+.owl-carousel-3 .owl-controls.style2 .owl-buttons div.owl-next {
+	right: -65px;
+}
+.sv-line::before {
+	height: 80px;
+}
+.sv-line::after {
+	height: 80px;
+}
+#kopa-footer .text-left {
+	margin-right: -60px;
+}
+.content-top > .wrapper {
+	margin-top: 30px; position: relative;
+}
+.content-top .kopa-search-form-widget {
+	border-radius: 0px; width: 100%; margin-bottom: 20px; position: relative;
+}
+.widget-title.style1 {
+	border-radius: 0px;
+}
+.widget-header > header::before {
+	border: currentColor; border-image: none; left: -100%; width: 100%; height: 100%; margin-left: 0px; background-color: rgb(40, 47, 66);
+}
+.kopa-area :first-child.widget.kopa-feature-item-widget {
+	margin-top: -80px;
+}
+.widget-header > header::after {
+	border: currentColor; border-image: none; width: 100%; background-color: rgb(40, 47, 66);
+}
+.kopa-feature-item-widget .widget-header {
+	padding: 0px 30px;
+}
+.kopa-left-area {
+	width: 100%; padding-right: 0px;
+}
+.kopa-right-area {
+	width: 100%; padding-left: 0px;
+}
+.kopa-area-2 .span-bg::before {
+	display: none;
+}
+.kopa-area-2 .span-bg::after {
+	display: none;
+}
+.kopa-area-2::before {
+	display: none;
+}
+.kopa-area-2 .c-img {
+	display: none;
+}
+.kopa-area-2 .span-bg .c-tg::before {
+	display: none;
+}
+.kopa-area-2 .span-bg .c-tg::after {
+	display: none;
+}
+.kopa-right-area.kopa-area-dark {
+	padding-top: 70px; background-color: rgb(40, 47, 66);
+}
+.kopa-right-area.kopa-area-dark::before {
+	left: -100%; top: 0px; width: 200%; height: 100%; position: absolute; content: ""; background-color: rgb(40, 47, 66);
+}
+.kopa-right-area.kopa-area-dark::after {
+	left: 100%; top: 0px; width: 200%; height: 100%; position: absolute; content: ""; background-color: rgb(40, 47, 66);
+}
+.kopa-feature-widget .widget-content .row {
+	margin-top: -40px;
+}
+.kopa-feature-widget .widget-content .row > div {
+	margin-top: 40px;
+}
+.entry-date.style2 {
+	width: auto;
+}
+.entry-date.style2 > div p {
+	line-height: 40px; font-size: 40px;
+}
+.entry-date.style2 > div span {
+	line-height: 14px; font-size: 14px;
+}
+.article-list-1 .last-item > .clearfix {
+	padding-left: 0px;
+}
+.entry-date.style2 > p {
+	line-height: 30px; font-size: 30px;
+}
+.entry-title.style1 {
+	line-height: 32px; font-size: 26px;
+}
+.kopa-header.style2 .kopa-logo {
+	width: 240px; margin-top: 10px;
+}
+.kopa-address-box ul li i {
+	display: none;
+}
+.owl-carousel-4 .entry-content {
+	top: 60px;
+}
+.owl-theme .owl-controls.style3 .owl-pagination {
+	bottom: -30px;
+}
+.ms-item3 {
+	width: 50%;
+}
+.kopa-area-7 {
+	background-color: rgb(40, 47, 66);
+}
+.kopa-right-area {
+	padding-top: 70px; position: relative; background-color: rgb(240, 240, 242);
+}
+.kopa-right-area::before {
+	left: -100%; top: 0px; width: 100%; height: 100%; position: absolute; content: ""; background-color: rgb(240, 240, 242);
+}
+.kopa-right-area::after {
+	left: 100%; top: 0px; width: 100%; height: 100%; position: absolute; content: ""; background-color: rgb(240, 240, 242);
+}
+.kopa-intro-2-widget .widget-content .row {
+	margin-top: -30px;
+}
+.kopa-intro-2-widget .widget-content .row > div {
+	margin-top: 30px;
+}
+.kopa-testimonial-widget .entry-content blockquote {
+	line-height: 26px; font-size: 20px;
+}
+.team-style1 .entry-item .entry-thumb {
+	margin: 0px 0px 20px; width: 100%; float: none;
+}
+.por-item1 .entry-item:hover .entry-content {
+	padding: 15px;
+}
+.por-item1 .entry-item .entry-thumb {
+	margin-top: 10px;
+}
+.owl-carousel-6 .entry-content {
+	top: 50px;
+}
+.slider-nav-link {
+	margin-top: 15px;
+}
+.entry-icon.style3 {
+	width: 50px; height: 50px; line-height: 44px; font-size: 20px;
+}
+.article-list-4 .post-content > ul > li .entry-item .entry-icon {
+	margin-top: -25px;
+}
+.article-list-4 .post-content > ul > li .entry-item .entry-content {
+	padding: 15px 20px;
+}
+.article-list-4 .post-content > ul > li.right-content .entry-item {
+	padding-left: 65px;
+}
+.article-list-4 .post-content > ul > li .entry-item {
+	padding-right: 65px;
+}
+.article-list-4 .post-content > ul > li .entry-item .entry-icon {
+	margin-right: 0px;
+}
+.portfolio-container {
+	margin-top: -35px;
+}
+.service-box .service-content {
+	margin-bottom: 30px;
+}
+.kopa-article-list-widget .widget-content .row {
+	margin-top: -30px;
+}
+.kopa-article-list-widget .widget-content .row > li {
+	margin-top: 30px;
+}
+.kopa-car-carousel .item {
+	text-align: center;
+}
+.related-car .row {
+	margin-top: -30px;
+}
+.related-car .row > div {
+	margin-top: 30px;
+}
+.entry-box .line-box .tag-box a {
+	padding: 0px 15px;
+}
+.kopa-blog-list-4 .last-item {
+	margin-bottom: 20px;
+}
+#related-post .row {
+	margin-top: -30px;
+}
+#related-post .row > li {
+	margin-top: 30px;
+}
+.kopa-blog-list-1 .entry-item .entry-thumb blockquote {
+	margin: 0px;
+}
+.kopa-blog-list-2 .entry-item .entry-thumb {
+	width: 200px;
+}
+.portfolio-box .portfolio-content .portfolio-detail {
+	margin-bottom: 30px;
+}
+.widget > header.style2 .widget-title {
+	min-width: 1px;
+}
+.social-panel-1 {
+	top: 90px;
+}
+.social-panel-1.style2 .panel-title {
+	display: none;
+}
+}
+@media screen and (max-width:639px)
+{
+.wrapper {
+	width: 440px;
+}
+.header-top-left {
+	margin: 0px; width: 100%; height: auto; text-align: center; float: none;
+}
+.header-top-left::before {
+	border: currentColor; border-image: none; width: 100%; height: 100%; background-color: rgb(40, 47, 66);
+}
+.header-top-right {
+	text-align: center; float: none;
+}
+.header-top-right > nav {
+	float: none; display: inline-block;
+}
+.header-top-right > div {
+	float: none; display: inline-block;
+}
+.sb-search-wrapper {
+	margin-left: 0px;
+}
+.kopa-header-bottom {
+	margin-top: 0px;
+}
+.owl-carousel-1 .entry-content .entry-title {
+	line-height: 30px; font-size: 24px; margin-bottom: 20px;
+}
+.owl-carousel-1 .entry-content .entry-title span {
+	line-height: 36px; font-size: 60px;
+}
+.owl-carousel-1 .entry-content .entry-categories {
+	line-height: 22px; font-size: 16px;
+}
+.kopa-search-form-widget .widget-content {
+	padding-right: 0px; padding-left: 0px;
+}
+.kopa-feature-item-widget .widget-header {
+	padding: 0px; margin-right: -30px; margin-left: -30px;
+}
+#kopa-footer .text-left {
+	margin-right: -110px;
+}
+.sv-line::before {
+	height: 76px;
+}
+.sv-line::after {
+	height: 76px;
+}
+.sv-line::before {
+	left: 2px;
+}
+.sv-line::after {
+	right: 2px;
+}
+.scrollup {
+	top: -120px;
+}
+#kopa-footer::before {
+	top: -40px; width: 100%; height: 100%; right: 10%; position: absolute; content: ""; background-color: rgb(40, 47, 66);
+}
+#kopa-footer::after {
+	left: 10%; top: -40px; width: 100%; height: 100%; position: absolute; content: ""; background-color: rgb(40, 47, 66);
+}
+#kopa-footer {
+	padding-bottom: 20px;
+}
+.kopa-header-top.style2 .header-top-left {
+	position: relative;
+}
+.kopa-header-top.style2 .header-top-right {
+	display: none;
+}
+.kopa-header.style2 .kopa-logo {
+	margin: 0px; width: 100%;
+}
+.thumb-icon.style3::after {
+	border-width: 4px;
+}
+.thumb-icon.style3 {
+	width: 50px; height: 50px; line-height: 50px; font-size: 20px; margin-top: -25px; margin-left: -25px;
+}
+.thumb-icon.style3::after {
+	left: -10px; top: -10px; width: 70px; height: 70px; line-height: 70px;
+}
+.owl-carousel-4 .entry-content .entry-title {
+	line-height: 26px; font-size: 22px; margin-bottom: 5px;
+}
+.owl-carousel-4 .entry-content .entry-title span {
+	line-height: 40px; font-size: 60px;
+}
+.kopa-skill-widget .widget-content .top-content .row {
+	margin-top: -30px;
+}
+.kopa-skill-widget .widget-content .top-content .row > div {
+	margin-top: 30px;
+}
+.widget-title {
+	line-height: 32px; font-size: 26px;
+}
+.kopa-tag-line-widget {
+	display: none;
+}
+.widget > header.style2 .widget-title::before {
+	left: -62px; border-top-width: 62px; border-right-width: 62px;
+}
+.entry-date.style2 > div {
+	padding: 15px;
+}
+.article-list-1 .last-item > .clearfix .entry-date.style2 {
+	margin-right: 20px;
+}
+.kopa-article-list-widget .widget-content .entry-item.last-item {
+	margin-bottom: 30px;
+}
+.kopa-pricing-widget .widget-content .row {
+	margin-top: -30px;
+}
+.kopa-pricing-widget .widget-content .row > div {
+	margin-top: 30px;
+}
+.portfolio-list-item > li {
+	width: 50%;
+}
+.kopa-testimonial-widget {
+	padding: 0px;
+}
+.owl-theme .owl-controls.style4 .owl-buttons div.owl-prev {
+	left: 0px;
+}
+.owl-theme .owl-controls.style4 .owl-buttons div.owl-next {
+	right: 0px;
+}
+.kopa-team-widget .widget-content .row > li {
+	width: 50% !important; margin-top: 50px;
+}
+.skill-rating {
+	margin-top: 30px;
+}
+.kopa-nav-link.pull-left {
+	display: none;
+}
+.kopa-address-box.style2 ul li {
+	line-height: 30px; font-size: 12px;
+}
+.kopa-address-box.style2 ul li i {
+	border-width: 1px; font-size: 12px;
+}
+.kopa-header.style3 .kopa-logo {
+	width: 200px;
+}
+.header-middle-left::before {
+	border-right-width: 25px;
+}
+.owl-carousel-6 .entry-content h2 {
+	line-height: 36px; font-size: 30px;
+}
+.slider-nav-link {
+	margin-top: 0px;
+}
+.owl-carousel-6 .entry-content h6 {
+	line-height: 20px; font-size: 14px; margin-bottom: 0px;
+}
+.slider-nav-link li a {
+	padding-right: 50px;
+}
+.owl-carousel-6 .entry-content {
+	top: 30px;
+}
+.owl-theme .owl-controls .owl-pagination {
+	bottom: 10px;
+}
+.widget > header.style3 {
+	margin-bottom: 0px;
+}
+.kopa-intro-3-widget .content-wrap {
+	margin-top: 20px;
+}
+.car-detail-box .car-des .car-content .kopa-tab-container-3 .nav-tabs.kopa-tabs-3 li:first-child {
+	margin-left: 1px;
+}
+.car-detail-box .car-des .car-content .kopa-tab-container-3 .nav-tabs.kopa-tabs-3 li {
+	margin-bottom: 1px;
+}
+.car-detail-box .car-des .car-content .tag-box a {
+	padding: 0px 10px;
+}
+.car-detail-box .car-des .car-content .tag-box {
+	padding: 12px 15px;
+}
+.nav-tabs.kopa-tabs-2 > li a {
+	font-size: 13px;
+}
+.nav-tabs.kopa-tabs-1 > li a {
+	font-size: 13px;
+}
+.nav-tabs.kopa-tabs-3 > li a {
+	font-size: 13px;
+}
+.nav-tabs.kopa-tabs-4 > li a {
+	font-size: 13px;
+}
+.error-404 .right-col h1 {
+	font-size: 22px;
+}
+.line-box .tag-box {
+	float: none !important;
+}
+.line-box .kopa-social-link {
+	margin-top: 15px; margin-left: -10px; float: none !important;
+}
+#comments .comments-list li .children {
+	margin-left: 0px;
+}
+.woocommerce div.product div.images {
+	width: 100%; float: none;
+}
+.woocommerce-page div.product div.images {
+	width: 100%; float: none;
+}
+.woocommerce div.product div.summary {
+	width: 100%; padding-left: 0px; margin-top: 0px; float: none;
+}
+.woocommerce-page div.product div.summary {
+	width: 100%; padding-left: 0px; margin-top: 0px; float: none;
+}
+.kopa-blog-list-1 .entry-item .entry-content .date-box .entry-post-date span {
+	line-height: 40px; font-size: 40px; display: block;
+}
+.kopa-blog-list-1 .entry-item .entry-content .date-box .entry-post-date {
+	padding: 10px; font-size: 14px;
+}
+.kopa-blog-list-1 .entry-item .entry-content .date-box {
+	width: auto;
+}
+.kopa-blog-list-1 .entry-item .entry-content .date-box .entry-post-year {
+	line-height: 36px; font-size: 30px;
+}
+.kopa-blog-list-1 .entry-item .entry-content .entry-content-detail {
+	margin-left: 110px;
+}
+.kopa-blog-list-1 .entry-item .entry-content .entry-content-detail footer .right-col {
+	margin-top: 10px; float: none;
+}
+.kopa-blog-list-1 .entry-item .entry-content .entry-content-detail footer .more-link {
+	float: none;
+}
+.kopa-blog-list-2 .entry-item .entry-thumb {
+	margin: 0px 0px 30px; width: 100%; float: none;
+}
+.header-top-right .kopa-top-link::before {
+	left: 18px; top: 0px; height: 40px; display: none;
+}
+.header-top-right .kopa-top-link {
+	padding-left: 0px;
+}
+.header-top-right {
+	padding: 17px 0px 15px; overflow: hidden;
+}
+.header-top-right > .kopa-top-link {
+	float: left;
+}
+.header-top-right > div.sb-search-wrapper {
+	float: right;
+}
+.kopa-blog-list-3 .masonry-list-wrapper > ul > li {
+	width: 100%;
+}
+.owl-theme .owl-controls.style2 .owl-buttons div {
+	top: 10px;
+}
+.pagination ul li > span {
+	width: 25px; height: 25px; line-height: 25px;
+}
+.pagination ul li > a {
+	width: 25px; height: 25px; line-height: 25px;
+}
+.pagination ul li > span i {
+	line-height: 25px;
+}
+.pagination ul li > a i {
+	line-height: 25px;
+}
+.kopa-view-more {
+	top: -5px;
+}
+}
+@media screen and (max-width:479px)
+{
+.wrapper {
+	width: 300px;
+}
+.page-header .page-header-inner .page-title {
+	line-height: 34px; font-size: 30px;
+}
+.page-header .page-header-inner {
+	padding: 90px 0px;
+}
+.breadcrumb {
+	margin-bottom: 15px;
+}
+.kopa-area {
+	padding-top: 50px;
+}
+.widget-title.style3 i {
+	font-size: 30px; margin-top: 5px;
+}
+.owl-carousel-3 p {
+	padding: 0px;
+}
+.kopa-tweet-widget > .wrapper {
+	padding: 0px 45px;
+}
+.owl-carousel-3 {
+	margin: 20px 0px;
+}
+.owl-carousel-3 .owl-controls.style2 .owl-buttons div.owl-prev {
+	left: -50px;
+}
+.owl-carousel-3 .owl-controls.style2 .owl-buttons div.owl-next {
+	right: -50px;
+}
+.owl-theme .owl-controls.style2 .owl-buttons div {
+	top: 10px;
+}
+.if-phone p {
+	line-height: 50px; font-size: 44px;
+}
+#kopa-footer .row > div {
+	width: 100% !important;
+}
+#kopa-footer .text-center {
+	margin-top: -75px;
+}
+#kopa-footer .text-center img {
+	width: 200px;
+}
+#kopa-footer .text-left {
+	text-align: center; margin-top: 10px; margin-right: 0px; margin-bottom: 10px;
+}
+#kopa-footer .text-right {
+	text-align: center;
+}
+.sv-line::before {
+	height: 65px;
+}
+.sv-line::after {
+	height: 65px;
+}
+.scrollup {
+	top: -115px;
+}
+.owl-carousel-1 .entry-content .entry-title {
+	line-height: 18px; font-size: 12px; margin-bottom: 5px;
+}
+.owl-carousel-1 .entry-content .entry-title span {
+	line-height: 20px; font-size: 34px;
+}
+.owl-carousel-1 .entry-content .entry-categories {
+	line-height: 18px; font-size: 12px;
+}
+.owl-carousel-1 .entry-content {
+	margin-top: -65px !important;
+}
+.kopa-area :first-child.widget.kopa-feature-item-widget {
+	margin-top: -50px;
+}
+.kopa-feature-item-widget .widget-header {
+	margin-right: -60px; margin-left: -60px;
+}
+.widget-header > header .widget-title {
+	line-height: 32px; font-size: 26px;
+}
+.widget-header > header p {
+	line-height: 22px; font-size: 16px;
+}
+.kopa-service-widget .entry-item {
+	padding: 20px 15px 20px 20px;
+}
+.entry-icon {
+	width: 60px; height: 60px; line-height: 54px; font-size: 30px;
+}
+.kopa-event-widget .entry-item .entry-date.style1 {
+	display: none;
+}
+.kopa-event-widget .entry-item .entry-date.style3 {
+	display: none;
+}
+.widget > header.style2 {
+	padding-left: 70px; margin-bottom: 40px;
+}
+.widget > header.style2 .widget-title {
+	padding: 10px 40px 10px 0px; min-width: 240px;
+}
+.widget > header.style2 .widget-title a {
+	top: 8px; right: 15px; font-size: 30px;
+}
+.sm-thumb > ul > li {
+	width: 50%; text-align: center;
+}
+.kopa-feature-widget .entry-item .entry-title {
+	line-height: 24px; font-size: 18px; margin-bottom: 15px;
+}
+.entry-meta {
+	margin-bottom: 10px;
+}
+.kopa-product-list-widget .widget-content .ms-item1 {
+	width: 100% !important;
+}
+.kopa-area-5 .span-bg::before {
+	height: 55px;
+}
+.kopa-area-5 .span-bg::after {
+	height: 55px;
+}
+.widget {
+	margin-bottom: 40px;
+}
+.kopa-masonry-widget .kopa-masonry-wrap > li {
+	width: 100%;
+}
+.kopa-loadmore span {
+	min-width: 300px;
+}
+.article-list-1 .last-item > .clearfix .entry-date.style2 {
+	display: none;
+}
+.entry-title.style1 {
+	line-height: 28px; font-size: 22px;
+}
+.owl-carousel-4 .entry-content .entry-title {
+	line-height: 22px; font-size: 16px; margin-bottom: 0px;
+}
+.owl-carousel-4 .entry-content .entry-title span {
+	line-height: 20px; font-size: 40px;
+}
+.owl-carousel-4 .entry-content {
+	top: 20px;
+}
+.owl-carousel-4 .entry-content > p {
+	line-height: 20px; font-size: 14px;
+}
+.owl-carousel-4 .entry-content span {
+	font-size: 12px;
+}
+.owl-theme .owl-controls.style3 .owl-pagination {
+	bottom: -50px;
+}
+.ms-item3 {
+	width: 100%;
+}
+.kopa-service-2-widget .widget-content > ul > li {
+	width: 100%;
+}
+.entry-icon.style2 {
+	width: 58px; height: 58px; line-height: 54px; font-size: 30px;
+}
+.widget-title {
+	line-height: 26px; font-size: 20px;
+}
+.widget > header.style2 .widget-title::before {
+	left: -46px; border-top-width: 46px; border-right-width: 46px;
+}
+.portfolio-list-item > li {
+	width: 100%;
+}
+.kopa-testimonial-widget .entry-content blockquote::before {
+	font-size: 40px;
+}
+.kopa-testimonial-widget .entry-content blockquote::after {
+	font-size: 40px;
+}
+.kopa-testimonial-widget .entry-content blockquote {
+	padding: 0px 40px;
+}
+.kopa-team-widget .widget-content .row > li {
+	width: 100% !important;
+}
+.kopa-address-box.style2 {
+	display: none;
+}
+.header-middle-left {
+	margin: 0px; padding: 20px 0px; height: auto; text-align: center; float: none;
+}
+.kopa-header.style3 .kopa-logo {
+	width: 100%;
+}
+.header-middle-left::before {
+	border: currentColor; border-image: none; left: 100%; width: 100%; height: 100%; background-color: rgb(239, 239, 239);
+}
+.kopa-ct-action {
+	padding: 15px;
+}
+.kopa-language > button {
+	padding: 0px 15px;
+}
+.kopa-ct-action i {
+	display: none;
+}
+.owl-carousel-6 .entry-content {
+	display: none;
+}
+.widget > header.style3 .widget-title {
+	line-height: 32px; font-size: 26px;
+}
+.article-list-4 .post-content > ul > li {
+	width: 100%; margin-top: 0px; margin-bottom: 30px; float: none;
+}
+.article-list-4 .post-content > ul > li.right-content {
+	margin-top: 0px; float: none;
+}
+.article-list-4 .post-content > ul > li:first-child {
+	margin-bottom: 30px;
+}
+.about-box header .about-title {
+	line-height: 32px; font-size: 26px;
+}
+.service-box .service-content header .service-title {
+	line-height: 32px; font-size: 26px;
+}
+.car-detail-box .car-des .car-content .tag-box a {
+	margin-bottom: 5px;
+}
+.entry-box .line-box .tag-box a {
+	margin-bottom: 5px;
+}
+.entry-box .entry-content blockquote {
+	margin-left: 0px;
+}
+.about-author .author-avatar {
+	width: 60px; margin-right: 20px;
+}
+#comments .comments-list li .comment-wrap .comment-avatar {
+	width: 60px; margin-right: 20px;
+}
+.kopa-blog-list-4 .older-post li .entry-item .entry-thumb {
+	margin-right: 20px;
+}
+.kopa-blog-list-4 .meta-box {
+	margin-left: -10px;
+}
+.kopa-blog-list-4 .meta-box .entry-author {
+	margin-left: 10px;
+}
+#comments .comments-list li .comment-wrap .comment-body header .pull-right {
+	float: none !important;
+}
+#comments .comments-list li .comment-wrap .comment-body header h6 {
+	float: none !important;
+}
+#comments .comments-list li .comment-wrap .comment-body header h6 {
+	margin-bottom: 10px;
+}
+#comments .comments-list li .comment-wrap .comment-body .comment-content > span {
+	margin-bottom: 10px;
+}
+#comments .comments-list li .comment-wrap .comment-body header {
+	margin-bottom: 20px;
+}
+#respond > h4 {
+	padding: 15px 0px;
+}
+#respond .comments-form {
+	padding: 15px 20px;
+}
+#respond .comments-form .row > div .comment-button input[type='submit'] {
+	margin-right: 0px;
+}
+.entry-box .entry-thumb .video-wrapper {
+	height: 300px;
+}
+.entry-box .entry-thumb iframe {
+	height: 300px;
+}
+.portfolio-box .portfolio-thumb .kopa-portfolio-carousel .owl-controls .owl-buttons div.owl-prev {
+	left: 0px;
+}
+.portfolio-box .portfolio-thumb .kopa-portfolio-carousel .owl-controls .owl-buttons div.owl-next {
+	right: 0px;
+}
+.portfolio-box .portfolio-thumb .kopa-portfolio-carousel .owl-controls .owl-buttons div {
+	width: 30px; height: 30px; line-height: 30px; margin-top: -15px;
+}
+.kopa-portfolio-pagination {
+	margin-bottom: 50px;
+}
+.product_column .related.products ul.products li.product {
+	width: 100%;
+}
+.product_column .related.products h2 {
+	line-height: 34px; font-size: 28px;
+}
+.kopa-blog-list-1 .entry-item .entry-content .date-box {
+	display: none;
+}
+.kopa-blog-list-1 .entry-item .entry-content .entry-content-detail {
+	margin-left: 0px;
+}
+.kopa-blog-list-2 .entry-item .entry-content .entry-content-detail footer .more-link {
+	margin-top: 10px; float: left;
+}
+.kopa-blog-list-2 .kopa-button.large-button {
+	padding: 10px 100px;
+}
+.owl-theme .owl-controls.style2 .owl-buttons div {
+	top: 20px;
+}
+.kopa-blog-list-1 .kopa-button.large-button {
+	padding: 10px 100px;
+}
+.kopa-portfolio-widget .kopa-button.large-button {
+	padding: 10px 100px;
+}
+.kopa-view-more {
+	top: -9px;
+}
+.nav-tabs.kopa-tabs-4 > li a {
+	text-transform: uppercase;
+}
+}

@@ -1,0 +1,51 @@
+ul.mobile-menu {
+	list-style: none;
+}
+ul.mobile-menu ul {
+	list-style: none;
+}
+ul.mobile-menu li {
+	list-style: none;
+}
+ul.mobile-menu ul {
+	margin: 0px 0px 0px 18px; padding: 0px;
+}
+ul.mobile-menu {
+	margin: 0px; padding: 4px;
+}
+ul.mobile-menu > li {
+	margin: 4px 0px;
+}
+ul.mobile-menu > li li {
+	margin: 2px 0px;
+}
+ul.mobile-menu a {
+	color: rgb(51, 51, 51); text-decoration: none; display: block;
+}
+ul.mobile-menu a .caret {
+	width: 0px; height: 0px; margin-top: 8px; margin-left: 2px; vertical-align: top; border-top-color: rgb(0, 0, 0); border-right-color: transparent; border-left-color: transparent; border-top-width: 4px; border-right-width: 4px; border-left-width: 4px; border-top-style: solid; border-right-style: solid; border-left-style: solid; float: right; display: inline-block; content: "";
+}
+ul.mobile-menu a:hover .caret {
+	border-top-color: rgb(255, 255, 255);
+}
+ul.mobile-menu li.open > a > .caret {
+	border-width: medium 4px 4px; border-style: none solid solid; border-color: currentColor transparent rgb(0, 0, 0);
+}
+ul.mobile-menu li.open > a:hover > .caret {
+	border-bottom-color: rgb(255, 255, 255);
+}
+ul.mobile-menu a:hover {
+	color: rgb(245, 245, 245); background-color: rgb(93, 93, 93);
+}
+ul.mobile-menu li.active > a {
+	color: rgb(245, 245, 245); background-color: rgb(93, 93, 93);
+}
+ul.mobile-menu > li.active > a {
+	background-color: rgb(77, 144, 254);
+}
+ul.mobile-menu li a {
+	padding: 2px 10px; line-height: 18px; font-size: 12px;
+}
+ul.mobile-menu > li > a {
+	padding: 4px 10px; line-height: 20px; font-size: 14px;
+}
