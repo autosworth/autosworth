@@ -1,7 +1,7 @@
         $(function () {
             $("#brandId").change(function () {
                 var selectedItem = $(this).val();
-				alert(selectedItem);
+		
        
 
                 var url = 'http://autoworth.azurewebsites.net/api/automakes/' ;
@@ -53,7 +53,7 @@
                       
                     },
                     error: function (xhr, ajaxOptions, thrownError) {
-                        alert('Failed to retrieve terms.');
+                        alert('Failed to retrieve valuations.');
            
                     }
                 });
@@ -66,37 +66,4 @@
 
 	
 		
-		        // $(function () {
-            // $("#brandId").change(function () {
-                // var selectedItem = $(this).val();
-				// alert(selectedItem);
-       
-
-                // var url = 'http://localhost:48923/api/automakes' ;
-          
-           
-                // $.ajax({
-                    // cache: false,
-                    // type: "GET",
-                    // url: url,
-                    // data: { "id": selectedItem },
-                    // success: function (data) {
-         
-				
-                
-                        // for (var i = 0; i < data.length; ++i) {
-
-
-                          
-                                // $('#makeId').append($('<option>', { value: data[i].AutoMakeID, html: data[i].Name }));
-
-                            
-                        // }
-                    // },
-                    // error: function (xhr, ajaxOptions, thrownError) {
-                        // alert('Failed to retrieve terms.');
-           
-                    // }
-                // });
-            // });
-        // });
+		  
