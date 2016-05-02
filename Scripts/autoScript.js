@@ -6,21 +6,20 @@
 		
 				alert(selectedItem);
 
-                var url = 'http://autoworth.azurewebsites.net/api/years/' ;
+				var url = 'http://autoworth.azurewebsites.net/api/years/' + selectedItem;
           
            
                 $.ajax({
                     cache: false,
                     type: "GET",
-                    url: url,
-                    data: { "id": selectedItem },
+                    url: url,                   
                     success: function (data) {
          
-				
+                        alert(data[i]);
                 
                         for (var i = 0; i < data.length; ++i) {
 
-alert(data[i]);
+
                           
                                 $('#year').append($('<option>', { value: 0, html: data[i] }));
 
@@ -28,7 +27,7 @@ alert(data[i]);
                         }
                     },
                     error: function (xhr, ajaxOptions, thrownError) {
-                        alert('Failed to retrieve terms.');
+                        alert('Failed to retrieve years');
            
                     }
                 });
@@ -75,8 +74,8 @@ alert(data[i].AutoModelID);
 					var makeId = document.getElementById("makeId");
 					var yearId = document.getElementById("year");
 					var selectedItem = legacySystemDictionaryId.options[legacySystemDictionaryId.selectedIndex].value
-					if year == null
-					alert ('Pleaes enter a year');
+				//	if year == null
+				//	alert ('Pleaes enter a year');
 
 				var url = 'http://autoworth.azurewebsites.net/api/price/?id=' + makeId + '&year=' = yearId ;
 			
