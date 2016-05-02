@@ -2,9 +2,9 @@
             $("#brandId").change(function () {
                 var selectedItem = $(this).val();
 		
-       
+				alert(selectedItem);
 
-                var url = 'http://autoworth.azurewebsites.net/api/automakes/' ;
+                var url = 'http://autoworth.azurewebsites.net/api/make/' ;
           
            
                 $.ajax({
