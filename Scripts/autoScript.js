@@ -4,7 +4,7 @@
 			     $("#makeId").change(function () {
                 var selectedItem = $(this).val();
 		
-			//	alert(selectedItem);
+			//	//alert(selectedItem);
 
 				//var url = 'http://autoworth.azurewebsites.net/api/years/' + selectedItem;
           var url ='http://autoworth.azurewebsites.net/api/years/';
@@ -20,7 +20,7 @@
                 
                         for (var i = 0; i < data.length; ++i) {
 
-   // alert(data[i]);
+   // //alert(data[i]);
                           
                                 $('#year').append($('<option>', { value: 0, html: data[i] }));
 
@@ -28,7 +28,7 @@
                         }
                     },
                     error: function (xhr, ajaxOptions, thrownError) {
-                        alert('Failed to retrieve years');
+                        //alert('Failed to retrieve years');
            
                     }
                 });
@@ -38,7 +38,7 @@
             $("#brandId").change(function () {
                 var selectedItem = $(this).val();
 		
-				alert(selectedItem);
+				//alert(selectedItem);
 
                 var url = 'http://autoworth.azurewebsites.net/api/make/' ;
           
@@ -54,7 +54,7 @@
                 
                         for (var i = 0; i < data.length; ++i) {
 
-//alert(data[i].AutoModelID);
+////alert(data[i].AutoModelID);
                           
                                 $('#makeId').append($('<option>', { value: data[i].AutoModelID, html: data[i].Name }));
 
@@ -62,7 +62,7 @@
                         }
                     },
                     error: function (xhr, ajaxOptions, thrownError) {
-                        alert('Failed to retrieve terms.');
+                        //alert('Failed to retrieve terms.');
            
                     }
                 });
@@ -73,18 +73,18 @@
 			    $("#paymentbutton").click(function(e) {
 					
 			        var makeId = document.getElementById("makeId").value;
-			        alert(makeId);
+			        //alert(makeId);
 
 			       
 			        var yearId = $('#year :selected').text();
-					alert(yearId);
+					//alert(yearId);
 					
 				//	if year == null
 				//	alert ('Pleaes enter a year');
 
 				var url = 'http://autoworth.azurewebsites.net/api/price/?id=' + makeId + '&year='+ yearId ;
 			
-				alert(url);
+				//alert(url);
 	
 				
 			
@@ -95,14 +95,14 @@
                     type: "GET",
                     url: url,
                     success: function (data) {
-                        alert(data);
+                        //alert(data);
          
 				    $('#preview').text('€ ' +  data);
                 
                       
                     },
                     error: function (xhr, ajaxOptions, thrownError) {
-                        alert('Failed to retrieve valuations.');
+                        //alert('Failed to retrieve valuations.');
            
                     }
                 });
