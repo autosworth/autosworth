@@ -1,4 +1,40 @@
-        $(function () {
+﻿        $(function () {
+
+
+			     $("#makeId").change(function () {
+                var selectedItem = $(this).val();
+		
+				alert(selectedItem);
+
+                var url = 'http://autoworth.azurewebsites.net/api/years/' ;
+          
+           
+                $.ajax({
+                    cache: false,
+                    type: "GET",
+                    url: url,
+                    data: { "id": selectedItem },
+                    success: function (data) {
+         
+				
+                
+                        for (var i = 0; i < data.length; ++i) {
+
+alert(data[i]);
+                          
+                                $('#year').append($('<option>', { value: 0, html: data[i] }));
+
+                            
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert('Failed to retrieve terms.');
+           
+                    }
+                });
+            });
+
+
             $("#brandId").change(function () {
                 var selectedItem = $(this).val();
 		
@@ -33,38 +69,7 @@ alert(data[i].AutoModelID);
             });
 			
 			
-			     $("#makeId").change(function () {
-                var selectedItem = $(this).val();
-		
-				alert(selectedItem);
 
-                var url = 'http://autoworth.azurewebsites.net/api/years/' ;
-          
-           
-                $.ajax({
-                    cache: false,
-                    type: "GET",
-                    url: url,
-                    data: { "id": selectedItem },
-                    success: function (data) {
-         
-				
-                
-                        for (var i = 0; i < data.length; ++i) {
-
-alert(data[i]);
-                          
-                                $('#year').append($('<option>', { value: 0, html: data[i] }));
-
-                            
-                        }
-                    },
-                    error: function (xhr, ajaxOptions, thrownError) {
-                        alert('Failed to retrieve terms.');
-           
-                    }
-                });
-            });
 			    $("#paymentbutton").click(function(e) {
 					
 					var makeId = document.getElementById("makeId");
