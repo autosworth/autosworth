@@ -3,23 +3,22 @@
 
 			     $("#makeId").change(function () {
                 var selectedItem = $(this).val();
-		
-				alert(selectedItem);
+					//	alert(selectedItem);
 
-				var url = 'http://autoworth.azurewebsites.net/api/years/' + selectedItem;
-          
-           
-                $.ajax({
-                    cache: false,
-                    type: "GET",
-                    url: url,                   
-                    success: function (data) {
-         
-                        alert(data[i]);
-                
+				//var url = 'http://autoworth.azurewebsites.net/api/years/' + selectedItem;
+                var url ='http://autoworth.azurewebsites.net/api/years/';
+				alert (url);
+				$.ajax({
+				    cache: false,
+				    type: "GET",
+				    url: url,
+				    data: { "id": selectedItem },
+				    success: function (data) {
+                            
+				        alert("Hello");
                         for (var i = 0; i < data.length; ++i) {
 
-
+                     alert(data[i]);
                           
                                 $('#year').append($('<option>', { value: 0, html: data[i] }));
 
@@ -37,7 +36,7 @@
             $("#brandId").change(function () {
                 var selectedItem = $(this).val();
 		
-				alert(selectedItem);
+				//alert(selectedItem);
 
                 var url = 'http://autoworth.azurewebsites.net/api/make/' ;
           
@@ -52,8 +51,7 @@
 				
                 
                         for (var i = 0; i < data.length; ++i) {
-
-alert(data[i].AutoModelID);
+//alert(data[i].AutoModelID);
                           
                                 $('#makeId').append($('<option>', { value: data[i].AutoModelID, html: data[i].Name }));
 
