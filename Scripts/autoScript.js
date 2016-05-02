@@ -18,7 +18,7 @@
                 
                         for (var i = 0; i < data.length; ++i) {
 
-
+alert(data[i].AutoModelID);
                           
                                 $('#makeId').append($('<option>', { value: data[i].AutoModelID, html: data[i].Name }));
 
@@ -31,24 +31,63 @@
                     }
                 });
             });
-			    $("#paymentbutton").click(function(e) {
-
-				var url = 'http://autoworth.azurewebsites.net/api/autoprices/GetById' ;
 			
+			
+			     $("#makeId").change(function () {
+                var selectedItem = $(this).val();
+		
+				alert(selectedItem);
+
+                var url = 'http://autoworth.azurewebsites.net/api/years/' ;
+          
+           
+                $.ajax({
+                    cache: false,
+                    type: "GET",
+                    url: url,
+                    data: { "id": selectedItem },
+                    success: function (data) {
+         
 				
+                
+                        for (var i = 0; i < data.length; ++i) {
+
+alert(data[i]);
+                          
+                                $('#year').append($('<option>', { value: 0, html: data[i] }));
+
+                            
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert('Failed to retrieve terms.');
+           
+                    }
+                });
+            });
+			    $("#paymentbutton").click(function(e) {
+					
+					var makeId = document.getElementById("makeId");
+					var yearId = document.getElementById("year");
+					var selectedItem = legacySystemDictionaryId.options[legacySystemDictionaryId.selectedIndex].value
+					if year == null
+					alert ('Pleaes enter a year');
+
+				var url = 'http://autoworth.azurewebsites.net/api/price/?id=' + makeId + '&year=' = yearId ;
+			
+				alert(url);
 				var legacySystemDictionaryId = document.getElementById("makeId");
 				
 			
-				var selectedItem = legacySystemDictionaryId.options[legacySystemDictionaryId.selectedIndex].value
+				
 		          
                 $.ajax({
                     cache: false,
                     type: "GET",
                     url: url,
-                    data: { "id": selectedItem , year: '2008'},
                     success: function (data) {
          
-				    $('#preview').text('€ ' +  data[0].Amount);
+				    $('#preview').text('€ ' +  data[0]);
                 
                       
                     },
