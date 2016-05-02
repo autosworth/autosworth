@@ -3,22 +3,24 @@
 
 			     $("#makeId").change(function () {
                 var selectedItem = $(this).val();
-					//	alert(selectedItem);
+		
+			//	alert(selectedItem);
 
 				//var url = 'http://autoworth.azurewebsites.net/api/years/' + selectedItem;
-                var url ='http://autoworth.azurewebsites.net/api/years/';
+          var url ='http://autoworth.azurewebsites.net/api/years/';
 				alert (url);
-				$.ajax({
-				    cache: false,
-				    type: "GET",
-				    url: url,
-				    data: { "id": selectedItem },
-				    success: function (data) {
-                            
-				        alert("Hello");
+                $.ajax({
+                    cache: false,
+                    type: "GET",
+                    url: url   , 
+                    data: { "id": selectedItem },
+                    success: function (data) {
+         
+                    
+                
                         for (var i = 0; i < data.length; ++i) {
 
-                     alert(data[i]);
+   // alert(data[i]);
                           
                                 $('#year').append($('<option>', { value: 0, html: data[i] }));
 
@@ -36,7 +38,7 @@
             $("#brandId").change(function () {
                 var selectedItem = $(this).val();
 		
-				//alert(selectedItem);
+				alert(selectedItem);
 
                 var url = 'http://autoworth.azurewebsites.net/api/make/' ;
           
@@ -51,6 +53,7 @@
 				
                 
                         for (var i = 0; i < data.length; ++i) {
+
 //alert(data[i].AutoModelID);
                           
                                 $('#makeId').append($('<option>', { value: data[i].AutoModelID, html: data[i].Name }));
@@ -69,16 +72,20 @@
 
 			    $("#paymentbutton").click(function(e) {
 					
-					var makeId = document.getElementById("makeId");
-					var yearId = document.getElementById("year");
-					var selectedItem = legacySystemDictionaryId.options[legacySystemDictionaryId.selectedIndex].value
+			        var makeId = document.getElementById("makeId").value;
+			        alert(makeId);
+
+			       
+			        var yearId = $('#year :selected').text();
+					alert(yearId);
+					
 				//	if year == null
 				//	alert ('Pleaes enter a year');
 
-				var url = 'http://autoworth.azurewebsites.net/api/price/?id=' + makeId + '&year=' = yearId ;
+				var url = 'http://autoworth.azurewebsites.net/api/price/?id=' + makeId + '&year='+ yearId ;
 			
 				alert(url);
-				var legacySystemDictionaryId = document.getElementById("makeId");
+	
 				
 			
 				
@@ -88,8 +95,9 @@
                     type: "GET",
                     url: url,
                     success: function (data) {
+                        alert(data);
          
-				    $('#preview').text('€ ' +  data[0]);
+				    $('#preview').text('€ ' +  data);
                 
                       
                     },
