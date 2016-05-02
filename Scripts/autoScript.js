@@ -4,7 +4,7 @@
 			     $("#makeId").change(function () {
                 var selectedItem = $(this).val();
 		          var url ='http://autoworth.azurewebsites.net/api/years/';
-				alert (url);
+				
                 $.ajax({
                     cache: false,
                     type: "GET",
